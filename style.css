@@ -1,0 +1,141 @@
+*{
+font-family: 'Roboto', sans-serif;
+margin: auto;
+padding: 0px;
+
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+p{
+    font-size: 17px;
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: #5AB9F3 ;
+    
+}
+
+.presentacion{
+  width: 40%;
+  text-align: center;
+}
+
+.nav {
+    width: 60%;
+}
+
+.nav ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: end;
+ 
+}
+
+.nav ul li{
+    margin: 20px;
+    list-style: none;
+    
+}
+
+.nav a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+   
+}
+
+.nav a:hover{
+    background-color: #BBDFF5;
+}
+.nav a:visited{
+    color: black;
+}
+
+
+.quien{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quien p{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.donde{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.donde p{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.donde iframe{
+    margin-top: 20px;
+}
+
+.hobbies{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;    
+}
+.contenedor-tarjetas{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tarjeta img{
+   width: 350px;
+   height: 350px;
+   object-fit: cover;
+   border-radius: 50px;
+   margin: 10px;
+   box-sizing: border-box;
+}
+
+.tarjeta img:hover{
+border: 5px solid black;
+}
+
+.codo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.codo p{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.codo img{
+    border-radius: 200px;
+    margin-top: 20px;
+    
+}
+
+.footer h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5AB9F3 ;
+    margin-top: 50px;
+    height: 50px;
+
+}
